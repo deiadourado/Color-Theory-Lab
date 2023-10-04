@@ -1,36 +1,42 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-.header {
+header {
+    background-color: #310C30;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#FBDFFA;
     text-align: center;
     padding: 20px;
     font-size: 24px;
 }
 
-.container {
+body{
+    background-color: #FBDFFA;
+}
+
+.paragraph{
     text-align: center;
-    margin: 20px;
 }
 
-.paragraph {
-    font-size: 18px;
-    margin: 20px;
-    color: #333; /* Base color for the monochromatic scheme (Task 1) */
-}
-
-.button {
-    background-color: #3498db; /* Base color for the triadic scheme (Task 2) */
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    margin-top: 10px;
+.button{
+    text-align: center;
+    position: absolute;
+    left: 48%;
+    text-align: center;
+    border: 1px solid #91128D;
+    background-color: #91128D;
+    color: #FBDFFA;
     cursor: pointer;
-    transition: background-color 0.3s ease;
-}
+ }
 
-.button:hover {
-    background-color: #e74c3c; /* Complementary color for the button (Task 3) */
-}
+ .button:hover {
+    background-color: #310C30;
+  }
+
+  footer{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #310C30;
+    color: #FBDFFA;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
