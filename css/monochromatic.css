@@ -1,10 +1,12 @@
 header {
     background-color: #310C30;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Abril Fatface';
     color:#FBDFFA;
     text-align: center;
-    padding: 20px;
-    font-size: 24px;
+    padding: 60px;
+    font-size: 40px;
+    font-style:oblique;
+    text-shadow: 2px 2px 5px #91128D;
 }
 
 body{
@@ -13,6 +15,7 @@ body{
 
 .paragraph{
     text-align: center;
+    font-family: 'Abril Fatface';
 }
 
 .button{
@@ -24,11 +27,12 @@ body{
     color: #FBDFFA;
     cursor: pointer;
     padding: 20px 40px;
-    margin-bottom: 20px;
- }
+    margin-bottom: 20px;    
+}
 
  a.button{
     text-decoration: none;
+    font-family: 'Abril Fatface';
  }
 
  .button:hover {
@@ -54,6 +58,7 @@ body{
 .menu-item a {
     text-decoration: none;
     color: #310C30;
+    font-family: 'Abril Fatface';
 }
 
 .menu-item a:hover {
@@ -61,7 +66,7 @@ body{
 }
 
   footer{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Abril Fatface';
     background-color: #310C30;
     color: #FBDFFA;
     text-align: center;

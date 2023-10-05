@@ -1,10 +1,11 @@
 header {
     background-color: #4424D6;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color:#B2D732;
     text-align: center;
     padding: 60px;
     font-size: 40px;
+    text-shadow: 2px 2px 5px #FC600A;
 }
 
 body{
